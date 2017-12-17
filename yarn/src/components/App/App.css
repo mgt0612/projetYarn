@@ -1,0 +1,38 @@
+div, span, canvas { 
+  margin:0; 
+  padding:0; 
+}
+#container {
+  overflow:hidden;
+  position:relative;
+  height: 100%;
+  width: 100%;
+  background:-o-linear-gradient(to bottom, #000, #333333);
+  background:-ms-linear-gradient(to bottom, #000, #333333);
+  background:-moz-linear-gradient(to bottom, #000, #333333);
+  background:-webkit-linear-gradient(to bottom, #000, #333333);
+  background:linear-gradient(to bottom, #000, #333333);    
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#333333');
+  -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#333333')";
+}
+.body{
+  background-color: #333333;
+}
+#pixie {
+  z-index:10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.tEnt {
+  z-index: 15;
+  position: absolute;
+}
+.titre  {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+h1, h3 {color: white; text-align: center;}
