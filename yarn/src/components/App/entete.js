@@ -6,10 +6,10 @@ var g;
 var pxs = [];
 var rint = 50;
 
-window.addEventListener('DOMContentLoaded',function(){
+function startPixies() {
   WIDTH = window.innerWidth;
   HEIGHT = 800;
-  //console.log("width " +WIDTH +" height " +HEIGHT);
+    //console.log("width " +WIDTH +" height " +HEIGHT);
 	document.getElementById('container').setAttribute("style","width:" +WIDTH+"px;");
 	document.getElementById('container').setAttribute("style","height:" +HEIGHT+"px;");
 	canvas = document.getElementById('pixie');
@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded',function(){
 	}
 	setInterval(draw,rint);
 
-});
+}
 
 function draw() {
 	con.clearRect(0,0,WIDTH,HEIGHT);
